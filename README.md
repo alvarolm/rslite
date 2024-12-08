@@ -1,7 +1,7 @@
 # rslite
 
 Sqlite row based synchronization for local dbs.
-Ideal for **incremental restore/backups** and **off-network transportation**.
+Ideal for **manual incremental restore/backups** and **off-network transportation**.
 
 At the moment issues an insert or replace query on the destination db for each row, so it may be slow for large datasets and large row values.
 
