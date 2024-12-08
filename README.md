@@ -11,7 +11,7 @@ At the moment issues an insert or replace query on the destination db for each r
 ### Usage:
 ```console
 Usage:
-  syncs [source db] [target db] [flags]
+  rslite [source db] [target db] [flags]
 
 Examples:
 
