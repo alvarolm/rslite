@@ -7,7 +7,7 @@ At the moment issues an insert or replace query on the destination db for each r
 
 ### installation
 - from source: ```console go install github.com/alvarolm/rslite@latest```
-
+- from builds: https://github.com/alvarolm/rslite/releases/latest
 ### Usage:
 ```console
 Usage:
