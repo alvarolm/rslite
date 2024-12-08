@@ -5,10 +5,6 @@ Ideal for **incremental restore/backups** and **off-network transportation**.
 
 At the moment issues an insert or replace query on the destination db for each row, so it may be slow for large datasets and large row values.
 
-### TODO:
-- implement content hashing comparison
-- more testing
-
 ```console
 Usage:
   syncs [source db] [target db] [flags]
@@ -37,6 +33,10 @@ Flags:
   -t, --tables strings   tables to sync (comma-separated)
   -v, --value string     filter value
 ```
+
+#### TODO:
+- implement content hashing comparison
+- more testing
 
 MIT License
 Copyright (c) 2024 Alvaro Leiva Miranda (alvaro@remote-workbench.com)
